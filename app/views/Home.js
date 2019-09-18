@@ -9,7 +9,7 @@ export default class Home extends Component {
         <Image  
             style={styles.thumbs}
             source={require('../assets/images/thumbs/user.png')} />
-            <Text style={styles.userName}>OUSSAMA</Text>
+            <Text style={styles.userName}>MOURAD</Text>
             <View style={styles.action}>
                 <TouchableOpacity style={styles.likes}>
                     <Image source={require('../assets/images/icons/icon-like.png')} />
