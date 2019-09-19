@@ -19,7 +19,7 @@ export default class Home extends Component {
                         <Text style={{ color: '#ffffff', fontSize: 15, marginLeft: 7 }}>234</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.btnTransparent}>
-                        <Text style={{ fontSize: 18, color: '#ffcb00', fontWeight: 600 }}>Live Video</Text>
+                        <Text style={{ fontSize: 18, color: '#ffcb00', fontWeight: "600" }}>Live Video</Text>
                         <Image source={require('../assets/images/icons/icon-arrow.png')}
                             style={{ width: 18, height: 14, marginLeft: 8 }}
                         />
