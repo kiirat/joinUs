@@ -13,6 +13,8 @@ import { createDrawerNavigator, DrawerNavigatorItems } from 'react-navigation-dr
 import Home from './app/views/Home'
 import Trending from './app/views/Trending'
 import Places from './app/views/Places'
+import Register from './app/views/Register'
+import Login from './app/views/Login'
 
 const CustomDrawerContentComponent = props => (
   <SafeAreaView style={{ backgroundColor: '#2B3046', shadowOpacity: 0.8, shadowRadius: 3, flex: 1 }}>
@@ -76,6 +78,12 @@ const AppNavigator = createDrawerNavigator(
     Home: {
       screen: Home,
     },
+    Register: {
+      screen: Register,
+    },
+    Login: {
+      screen: Login,
+    },
     Trending: {
       screen: Trending,
     },
@@ -84,7 +92,7 @@ const AppNavigator = createDrawerNavigator(
     },
   },
   {
-    initialRouteName: 'Home',
+    initialRouteName: 'Login',
     contentComponent: CustomDrawerContentComponent,
     contentOptions: {
       itemsContainerStyle: styles.list_item_container,
