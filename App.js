@@ -15,6 +15,7 @@ import Trending from './app/views/Trending'
 import Places from './app/views/Places'
 import Register from './app/views/Register'
 import Login from './app/views/Login'
+import ChatScreen from './app/views/ChatScreen'
 
 const CustomDrawerContentComponent = props => (
   <SafeAreaView style={{ backgroundColor: '#2B3046', shadowOpacity: 0.8, shadowRadius: 3, flex: 1 }}>
@@ -89,6 +90,9 @@ const AppNavigator = createDrawerNavigator(
     },
     Places: {
       screen: Places,
+    },
+    ChatScreen: {
+      screen: ChatScreen,
     },
   },
   {
